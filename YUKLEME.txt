@@ -1,8 +1,8 @@
-RIZE AFET SAHA TESPIT — COKLU IMALAT DENEME REPOSU v0.1.0
+RIZE AFET SAHA TESPIT — COKLU IMALAT DENEME REPOSU v0.1.1
 
 ONEMLI: Bu paket PRODUKSIYON reposu olan afet-saha-tespit icin degildir.
-Onerilen yeni GitHub repo adi: afet-saha-tespit-deneme
-Onerilen Pages adresi: https://yemretikbas-lgtm.github.io/afet-saha-tespit-deneme/
+GitHub repo: 4123-deneme
+Pages adresi: https://yemretikbas-lgtm.github.io/4123-deneme/
 
 Bu ilk paket, son onayli Rize v0.12.12 uygulamasinin GUVENLI TEST KLONUDUR.
 - IndexedDB ayri: afet-saha-tespit-deneme-multi
@@ -13,9 +13,18 @@ Bu ilk paket, son onayli Rize v0.12.12 uygulamasinin GUVENLI TEST KLONUDUR.
 - Uretim reposunun verilerine dokunmaz.
 
 COKLU IMALAT DURUMU:
-- Uygulama mantigi bu v0.1.0 paketinde henuz tek imalatlidir.
+- v0.1.1 ile ayni tespit noktasina 10 adede kadar imalat ekleme / duzenleme / silme aktiftir.
+- Yer, koordinat ve fotograflar nokta bazinda tek kalir.
+- JSON kaydinda imalatlar[] dizisi kullanilir.
 - PROTOTIP_EXCEL klasorunde 15 nokta / nokta basina 10 imalat slotlu Excel prototipi bulunur.
-- Sonraki gelistirmeler SADECE bu deneme reposunda yapilacaktir.
-- Coklu imalat export mantigi tamamlanmadan prototip Excel uygulamanin aktif gomulu sablonu yapilmamistir.
+- Coklu imalat Excel exportu henuz aktif degildir; yanlis cikti uretmemek icin coklu kayitlarda export durdurulur.
 
 GitHub'a ZIP icindeki DOSYALARI repo kokune yukleyin; ZIP dosyasinin kendisini yuklemeyin.
+
+
+v0.1.1 TEST:
+- Aynı tespit içinde + İmalatı Ekle ile 10 adede kadar imalat kaydı.
+- İmalatlar düzenlenebilir ve silinebilir.
+- Yer/koordinat/fotoğraf tespit bazında tek kalır.
+- JSON yedeğinde imalatlar[] saklanır.
+- Çoklu imalat Excel dışa aktarma bu sürümde bilerek kapalıdır; sonraki adımda prototip Excel bağlanacaktır.

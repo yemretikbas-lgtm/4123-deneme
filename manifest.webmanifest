@@ -1,5 +1,5 @@
 {
-  "name": "Afet Saha Tespit — Çoklu İmalat Deneme",
+  "name": "Afet Saha Tespit — Çoklu İmalat Deneme v0.1.1",
   "short_name": "Saha Test",
   "description": "Rize afet saha tespit uygulamasının çoklu imalat geliştirme ve test sürümü. Üretim verilerinden bağımsızdır.",
   "start_url": "./",

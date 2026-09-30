@@ -1,4 +1,4 @@
-const CACHE_NAME = 'afet-saha-tespit-deneme-multi-v0.1.0-20260930';
+const CACHE_NAME = 'afet-saha-tespit-deneme-multi-v0.1.1-20260930';
 const CACHE_PREFIX = 'afet-saha-tespit-deneme-multi-';
 const APP_SHELL = [
   './',
