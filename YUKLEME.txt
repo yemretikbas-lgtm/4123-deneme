@@ -1,0 +1,21 @@
+RIZE AFET SAHA TESPIT — COKLU IMALAT DENEME REPOSU v0.1.0
+
+ONEMLI: Bu paket PRODUKSIYON reposu olan afet-saha-tespit icin degildir.
+Onerilen yeni GitHub repo adi: afet-saha-tespit-deneme
+Onerilen Pages adresi: https://yemretikbas-lgtm.github.io/afet-saha-tespit-deneme/
+
+Bu ilk paket, son onayli Rize v0.12.12 uygulamasinin GUVENLI TEST KLONUDUR.
+- IndexedDB ayri: afet-saha-tespit-deneme-multi
+- localStorage aktif proje anahtari ayri: afet-multi-test-active-project
+- Service Worker cache ayri ve yalniz deneme cache'lerini temizler.
+- JSON yedek kind degeri ayri: afet-saha-project-multi-test
+- Ekranda belirgin DENEME bandi vardir.
+- Uretim reposunun verilerine dokunmaz.
+
+COKLU IMALAT DURUMU:
+- Uygulama mantigi bu v0.1.0 paketinde henuz tek imalatlidir.
+- PROTOTIP_EXCEL klasorunde 15 nokta / nokta basina 10 imalat slotlu Excel prototipi bulunur.
+- Sonraki gelistirmeler SADECE bu deneme reposunda yapilacaktir.
+- Coklu imalat export mantigi tamamlanmadan prototip Excel uygulamanin aktif gomulu sablonu yapilmamistir.
+
+GitHub'a ZIP icindeki DOSYALARI repo kokune yukleyin; ZIP dosyasinin kendisini yuklemeyin.
