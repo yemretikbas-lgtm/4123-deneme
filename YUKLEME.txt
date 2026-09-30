@@ -1,30 +1,30 @@
-RIZE AFET SAHA TESPIT — COKLU IMALAT DENEME REPOSU v0.1.1
+RIZE AFET SAHA TESPIT — COKLU IMALAT DENEME REPOSU v0.1.2
 
 ONEMLI: Bu paket PRODUKSIYON reposu olan afet-saha-tespit icin degildir.
 GitHub repo: 4123-deneme
 Pages adresi: https://yemretikbas-lgtm.github.io/4123-deneme/
 
-Bu ilk paket, son onayli Rize v0.12.12 uygulamasinin GUVENLI TEST KLONUDUR.
+Bu surum COKLU IMALAT + EXCEL TEST surumudur.
 - IndexedDB ayri: afet-saha-tespit-deneme-multi
 - localStorage aktif proje anahtari ayri: afet-multi-test-active-project
-- Service Worker cache ayri ve yalniz deneme cache'lerini temizler.
+- Service Worker cache ayri: v0.1.2
 - JSON yedek kind degeri ayri: afet-saha-project-multi-test
-- Ekranda belirgin DENEME bandi vardir.
 - Uretim reposunun verilerine dokunmaz.
 
-COKLU IMALAT DURUMU:
-- v0.1.1 ile ayni tespit noktasina 10 adede kadar imalat ekleme / duzenleme / silme aktiftir.
+COKLU IMALAT:
+- Ayni tespit noktasina 10 adede kadar imalat ekleme / duzenleme / silme aktiftir.
 - Yer, koordinat ve fotograflar nokta bazinda tek kalir.
 - JSON kaydinda imalatlar[] dizisi kullanilir.
-- PROTOTIP_EXCEL klasorunde 15 nokta / nokta basina 10 imalat slotlu Excel prototipi bulunur.
-- Coklu imalat Excel exportu henuz aktif degildir; yanlis cikti uretmemek icin coklu kayitlarda export durdurulur.
+
+EXCEL TEST:
+- Bu deneme Exceli 15 tespit noktasi kapasitelidir.
+- Her nokta Excel altyapisinda 10 imalat slotuna sahiptir.
+- GIRIS ve ICMAL sayfalarinda ayni S.No altinda imalatlar ayri satirlarda yazilir.
+- Kullanilmayan imalat satirlari 1 pt'e daraltilir.
+- Raporlar sayfasinda her nokta tek rapor kartidir.
+- Tek fotograf kullanilir.
+- YM, noktadaki imalatlarin toplamini alir.
+- Rapor metni, ICMAL'deki imalat metinlerini tek raporda birlestirir.
+- DIGER imalatinda saha notu o imalatin rapor metni olarak kullanilir.
 
 GitHub'a ZIP icindeki DOSYALARI repo kokune yukleyin; ZIP dosyasinin kendisini yuklemeyin.
-
-
-v0.1.1 TEST:
-- Aynı tespit içinde + İmalatı Ekle ile 10 adede kadar imalat kaydı.
-- İmalatlar düzenlenebilir ve silinebilir.
-- Yer/koordinat/fotoğraf tespit bazında tek kalır.
-- JSON yedeğinde imalatlar[] saklanır.
-- Çoklu imalat Excel dışa aktarma bu sürümde bilerek kapalıdır; sonraki adımda prototip Excel bağlanacaktır.

@@ -1,0 +1,9 @@
+v0.1.2 ÇOKLU İMALAT + EXCEL TEST
+
+- Üretim Rize reposundan tamamen ayrıdır.
+- Excel kapasitesi bu denemede 15 tespit noktasıdır.
+- Her noktada en fazla 10 imalat vardır.
+- GİRİŞ ve İCMAL: aynı S.No altında imalatlar ayrı satırdır.
+- Kullanılmayan imalat slotları 1 pt satıra daraltılır.
+- Raporlar: nokta başına tek kart, tek fotoğraf, toplam YM, imalat metinleri birleşik.
+- DİĞER imalatında saha notu o imalatın rapor metni olarak kullanılır.
