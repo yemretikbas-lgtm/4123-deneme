@@ -1,30 +1,16 @@
-RIZE AFET SAHA TESPIT — COKLU IMALAT DENEME REPOSU v0.1.2
+4123-deneme GitHub reposuna bu klasörün İÇİNDEKİ dosyaları köke yükle.
 
-ONEMLI: Bu paket PRODUKSIYON reposu olan afet-saha-tespit icin degildir.
-GitHub repo: 4123-deneme
-Pages adresi: https://yemretikbas-lgtm.github.io/4123-deneme/
+Sürüm: v0.1.3 ÇOKLU İMALAT + 200 NOKTA EXCEL TEST
+Tarih: 01.10.2026
 
-Bu surum COKLU IMALAT + EXCEL TEST surumudur.
-- IndexedDB ayri: afet-saha-tespit-deneme-multi
-- localStorage aktif proje anahtari ayri: afet-multi-test-active-project
-- Service Worker cache ayri: v0.1.2
-- JSON yedek kind degeri ayri: afet-saha-project-multi-test
-- Uretim reposunun verilerine dokunmaz.
+DEĞİŞİKLİKLER
+- Excel kapasitesi 15 noktadan 200 noktaya çıkarıldı.
+- Her noktada en fazla 10 imalat destekleniyor.
+- İCMAL yardımcı L sütunu görünmez/genişliği 0.
+- GİRİŞ ve İCMAL'de kullanılan imalat sayısına göre ortak nokta alanları birleşiyor.
+- Rapor kartları yeni 10-satırlık nokta bloklarına bağlandı.
+- YM, noktadaki imalatların toplamını alıyor; rapor metni tüm imalat metinlerini birleştiriyor.
+- Taş duvarda YOLUN ÜST VE ALT ŞEVİNE seçeneği kaldırıldı. Alt ve üst şev ayrı imalat olarak girilir.
+- Raporlar yazdırma alanı A1:X1133 export sırasında korunur.
 
-COKLU IMALAT:
-- Ayni tespit noktasina 10 adede kadar imalat ekleme / duzenleme / silme aktiftir.
-- Yer, koordinat ve fotograflar nokta bazinda tek kalir.
-- JSON kaydinda imalatlar[] dizisi kullanilir.
-
-EXCEL TEST:
-- Bu deneme Exceli 15 tespit noktasi kapasitelidir.
-- Her nokta Excel altyapisinda 10 imalat slotuna sahiptir.
-- GIRIS ve ICMAL sayfalarinda ayni S.No altinda imalatlar ayri satirlarda yazilir.
-- Kullanilmayan imalat satirlari 1 pt'e daraltilir.
-- Raporlar sayfasinda her nokta tek rapor kartidir.
-- Tek fotograf kullanilir.
-- YM, noktadaki imalatlarin toplamini alir.
-- Rapor metni, ICMAL'deki imalat metinlerini tek raporda birlestirir.
-- DIGER imalatinda saha notu o imalatin rapor metni olarak kullanilir.
-
-GitHub'a ZIP icindeki DOSYALARI repo kokune yukleyin; ZIP dosyasinin kendisini yuklemeyin.
+Mevcut üretim Rize reposuna dokunma; bu yalnız 4123-deneme içindir.

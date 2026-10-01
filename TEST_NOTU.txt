@@ -1,9 +1,10 @@
-v0.1.2 ÇOKLU İMALAT + EXCEL TEST
+RIZE ÇOKLU İMALAT DENEME — v0.1.3
 
-- Üretim Rize reposundan tamamen ayrıdır.
-- Excel kapasitesi bu denemede 15 tespit noktasıdır.
-- Her noktada en fazla 10 imalat vardır.
-- GİRİŞ ve İCMAL: aynı S.No altında imalatlar ayrı satırdır.
-- Kullanılmayan imalat slotları 1 pt satıra daraltılır.
-- Raporlar: nokta başına tek kart, tek fotoğraf, toplam YM, imalat metinleri birleşik.
-- DİĞER imalatında saha notu o imalatın rapor metni olarak kullanılır.
+- Kapasite: 200 tespit noktası x nokta başına en fazla 10 imalat.
+- GİRİŞ: kullanılan imalat sayısına göre statik nokta sütunları birleşir; imalat/maliyet sütunları ayrı satır kalır.
+- İCMAL: aynı noktanın sabit sütunları birleşir; imalat satırları ayrı kalır. Yardımcı rapor metni sütunu L görünmez/genişliği 0'dır.
+- RAPORLAR: 200 nokta kartı; tek fotoğraf, imalatların toplam YM'si ve tüm imalat metinleri tek kartta.
+- Taş duvar şevi seçenekleri yalnız ALT ŞEV ve ÜST ŞEV. Birleşik ÜST+ALT seçeneği kaldırıldı; gerekiyorsa iki ayrı imalat girilir.
+- Raporlar yazdırma alanı export sırasında A1:X1133 olarak korunur.
+
+Bu repo üretim Rize reposundan bağımsız test içindir.
